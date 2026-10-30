@@ -13,6 +13,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteNav, SiteFooter } from "@/components/site";
+import { Chatbot } from "@/components/Chatbot";
 import { Toaster } from "@/components/ui/sonner";
 
 function NotFoundComponent() {
@@ -347,6 +348,7 @@ function RootComponent() {
       <SiteNav />
       <main><Outlet /></main>
       <SiteFooter />
+      <Chatbot />
       <Toaster />
     </QueryClientProvider>
   );
