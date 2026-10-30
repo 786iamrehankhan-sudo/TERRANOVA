@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#0a0e1a"/>
+
+  <!-- Stars -->
+  <circle cx="60" cy="80" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="440" cy="60" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="480" cy="200" r="2.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="40" cy="350" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="470" cy="420" r="3" fill="#ffffff" opacity="0.4"/>
+  <circle cx="100" cy="460" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="390" cy="470" r="2.5" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Earth globe -->
+  <circle cx="256" cy="256" r="160" fill="#1a3a5c"/>
+
+  <!-- Ocean highlights -->
+  <path d="M160 176 Q200 128 256 160 Q304 128 352 176 Q384 224 352 288 Q304 352 256 352 Q208 352 160 288 Q128 224 160 176Z" fill="#1e5fa8"/>
+
+  <!-- Land masses -->
+  <path d="M208 144 Q240 112 272 144 L288 208 Q256 240 224 208Z" fill="#2d8a4e"/>
+  <path d="M288 224 Q336 208 352 256 Q336 304 288 304 Q272 272 288 224Z" fill="#2d8a4e"/>
+  <path d="M160 240 Q192 224 208 272 Q176 304 160 272Z" fill="#2d8a4e"/>
+  <path d="M224 304 Q256 288 288 304 Q272 336 240 336Z" fill="#2d8a4e"/>
+  <path d="M230 180 Q250 168 265 182 Q258 200 242 198Z" fill="#3aa85e"/>
+
+  <!-- Atmosphere glow -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#38bdf8" stroke-width="6" opacity="0.35"/>
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.15"/>
+
+  <!-- Orbital ring -->
+  <ellipse cx="256" cy="256" rx="220" ry="80" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="20 12" opacity="0.6" transform="rotate(-30 256 256)"/>
+
+  <!-- Spacecraft dot on orbit -->
+  <circle cx="420" cy="185" r="10" fill="#38bdf8" opacity="0.95"/>
+  <circle cx="420" cy="185" r="16" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
+</svg>
